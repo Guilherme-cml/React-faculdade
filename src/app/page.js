@@ -10,7 +10,7 @@ export default function Home() {
       <br/>
     <Cabecalho titulo="Home" sub="Projeto Aula"/>
     
-      <a href="/fundamentos" className="btn btn-primary" >Fundamentos</a>{' '}
+      <Link href="/clientes" className="btn btn-success" >Clientes</Link>{' '}
       <Link className="btn btn-secondary" href='/fundamentos'> Página de Fundamentos</Link>
      
     </main>

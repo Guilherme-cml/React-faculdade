@@ -6,8 +6,7 @@ export default function Fundamentos() {
 
     return (
         <>
-            <Cabecalho titulo="Fundamentos"/>
-            
+            <br/>
             <Container>
                 <h1>Fundamentos</h1>
                 <Alert>This is an alert</Alert>
