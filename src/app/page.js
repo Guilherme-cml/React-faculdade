@@ -1,11 +1,18 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+
+import { Button, Tab, Tabs } from "react-bootstrap";
+import Cabecalho from "./components/Cabecalho";
+import Link from "next/link";
 
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <h1>Hello World</h1>
+    <main className="container">
+      <br/>
+    <Cabecalho titulo="Home" sub="Projeto Aula"/>
+    
+      <a href="/fundamentos" className="btn btn-primary" >Fundamentos</a>{' '}
+      <Link className="btn btn-secondary" href='/fundamentos'> Página de Fundamentos</Link>
+     
     </main>
   );
 }
