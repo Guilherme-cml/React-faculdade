@@ -6,16 +6,17 @@ export default function Pagina(props) {
         <>
         <Navbar bg="dark" data-bs-theme="dark">
             <Container>
-              <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+              <Navbar.Brand href="#home">{props.tnav}</Navbar.Brand>
               <Nav className="me-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#features">Features</Nav.Link>
-                <Nav.Link href="#pricing">Pricing</Nav.Link>
+                <Nav.Link href="/">Página 1</Nav.Link>
+                <Nav.Link href="/fundamentos">Página 2</Nav.Link>
+                <Nav.Link href="/array">Array</Nav.Link>
+                <Nav.Link href="/objetos">Carros</Nav.Link>
               </Nav>
             </Container>
           </Navbar>
         
-          <div className="bg-secondary text-white text-center p-3">
+          <div className=" bg-light text-dark text-flex-start p-5">
 
             <h2>{props.titulo}</h2>
     
