@@ -1,6 +1,8 @@
+'use client'
 import { Table } from "react-bootstrap";
 import Cabecalho from "../components/Cabecalho";
 import Link from "next/link";
+import Pagina from "../components/Pagina";
 
 
 
@@ -9,7 +11,7 @@ export default function Clientes() {
 
 
     return(
-        <main className="container">
+        <Pagina>
         <br/>
         <Cabecalho titulo="Clientes" sub="Pagina de Clientes usando o cabeçalho"/>
 
@@ -46,6 +48,6 @@ export default function Clientes() {
         </tr>
       </tbody>
     </Table>
-        </main>
+       </Pagina>
     )
 }

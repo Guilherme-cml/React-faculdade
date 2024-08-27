@@ -16,7 +16,7 @@ export default function Objetos() {
 return( <>
 
 
-<Pagina tnav='Sistema Academico' titulo="Carros">
+<Pagina tnav='Sistema Acadêmico' titulo="Carros">
 
     <div className="row">
     
@@ -26,10 +26,13 @@ return( <>
           <Card.Img variant="top" src={item.foto} className='w-100' />
           <Card.Body>
             <Card.Title>{item.marca} - {item.modelo}</Card.Title>
+            <div className="d-flex justify-content-between align-items-center">
             <Card.Text>
              Ano: <b>{item.ano}</b>
             </Card.Text>
             <Button  variant="primary">Detalhes</Button>
+            </div>
+            
           </Card.Body>
         </Card>
       ))}</div>
