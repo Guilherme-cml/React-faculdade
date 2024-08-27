@@ -1,4 +1,4 @@
-# React Study Repository 📖
+# React Study Repository 
   5° Semestre | Análise e Desenvolvimento de Sistemas
   
 📝 Sobre o Projeto <br>
